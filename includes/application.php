@@ -1,7 +1,7 @@
 <?php
 
-	define("SITE_URL","http://angelheartmusicstorybook.com/");
-	define("SITE_LINK","http://angelheartmusicstorybook.com/");
+	define("SITE_URL","http://angelheart:8888/");
+	define("SITE_LINK","http://angelheart:8888/");
 	define("SITE_NAME","Angel Heart");
 	define("SUPPORT_EMAIL","tommybiglow@gmail.com");
 
