@@ -1,0 +1,82 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Angel Heart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Angel Heart" content="Angel Heart is a live music storybook written by Cornelia Funke, composed by Luna Pearl Woolf, and Narrated by Andy Irons">
+    <meta name="Oxingale Records" content="Angel Heart Website">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 0px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://github.com/twitter/bootstrap/tree/master/docs/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://github.com/twitter/bootstrap/tree/master/docs/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://github.com/twitter/bootstrap/tree/master/docs/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="https://github.com/twitter/bootstrap/tree/master/docs/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="https://github.com/twitter/bootstrap/tree/master/docs/assets/ico/favicon.png">
+
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#"></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#ausic">Music</a></li>
+              <li><a href="#app">App</a></li>
+              <li><a href="#Stage">Stage</a></li>
+              <li><a href="#artists">Artists</a></li>
+              <li><a href="#join_the_story">Join The Story</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="twelve cols">
+      <img alt="something" src="content/hm_art.jpg">
+    </div><!-- /container -->
+
+     <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster
+    <script src="_/js/jquery.js"></script>
+    <script src="_/js/bootstrap-transition.js"></script>
+    <script src="_/js/bootstrap-alert.js"></script>
+    <script src="_/js/bootstrap-modal.js"></script>
+    <script src="_/js/bootstrap-dropdown.js"></script>
+    <script src="_/js/bootstrap-scrollspy.js"></script>
+    <script src="_/js/bootstrap-tab.js"></script>
+    <script src="_/js/bootstrap-tooltip.js"></script>
+    <script src="_/js/bootstrap-popover.js"></script>
+    <script src="_/js/bootstrap-button.js"></script>
+    <script src="_/js/bootstrap-collapse.js"></script>
+    <script src="_/js/bootstrap-carousel.js"></script>
+    <script src="_/js/bootstrap-typeahead.js"></script> -->
+
+  </body>
+
+</html>

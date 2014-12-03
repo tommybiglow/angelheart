@@ -1,0 +1,101 @@
+/* MUSIC STYLES */
+
+.carousel {
+	width: 100%;
+}
+
+.carousel-caption {
+	color: inherit;
+	bottom: auto;
+	padding-top: 0;
+	top: auto;
+	position: relative;
+	left: auto;
+	right: auto;
+	width: 100%;
+}
+
+.music-slider {
+	background-color: #ebe2d6;
+	color: #000;
+	margin-top: 17px;
+	padding: 55px 55px 40px;
+	float: left;
+}
+
+.copy p {
+	line-height: 1.9em;
+	margin-bottom: 22px;
+}
+
+.carousel-control {
+	opacity: 1;
+	padding-left: 4%;
+	width: 16%;
+}
+
+.ah-wide img {
+	width: 100%;
+}
+
+.glyphicon-play, .glyphicon-pause {
+	background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    height: 40px;
+    line-height: 1;
+    position: relative;
+    top: 10px;
+    float: left;
+    width: 19px;
+    padding: 0;
+    color: #000;
+    font-size: 20px;
+}
+
+.icon-flipped {
+transform: scaleX(-1);
+-moz-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+-ms-transform: scaleX(-1);
+}
+
+.slide-controls {
+	margin: 60px 0 0;
+    width: 100%;
+}
+
+
+.music-icons {
+	float: right;
+	position: absolute;
+	right: 0px;
+}
+
+.itunes {
+	width: 25px;
+	height: 32px;
+	background: url('../../img/music/music-icon-sprite.png') no-repeat;
+	text-indent: -999999px;
+	float: left;
+	margin-right: 18px;
+}
+
+.amazon {
+	width: 30px;
+	height: 32px;
+	background: url('../../img/music/music-icon-sprite.png') no-repeat -25px 0;
+	text-indent: -999999px;
+	float: right;
+}
+
+.copy {
+	padding-top: 1em;
+}
+
+.ah-wide .slide-controls {
+	margin-top: 49px;
+}

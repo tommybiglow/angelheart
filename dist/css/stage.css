@@ -1,0 +1,121 @@
+/* STAGE STYLES */
+#stage .text_below {
+	padding-top: 35px;
+}
+
+#stage .text_below p{
+    font-size: 15px;
+}
+
+#stage .cal-headings {
+	padding-top: 15px;
+}
+
+#stage .panel-default {
+    border-color: none
+}
+
+#stage .panel-group{
+	padding-top: 20px;
+}
+
+#stage .panel {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid transparent;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 0px;
+}
+
+.panel-default > .panel-heading {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #0000FF;
+    color: #EBE2D6;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+}
+
+.panel-heading {
+    border-bottom: 1px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#stage span{
+	font-size: 12px;
+	line-height: 25px;
+}
+
+#stage .cal-date{
+    padding-left: 60px;
+}
+
+#stage .cal-button{
+    padding-left: 40px;
+}
+
+#stage .toggle-container {
+    border-bottom: 1px solid #334651;
+    padding-bottom:15px;
+}
+
+#stage .toggle-container a {
+    color: #EBE2D6;
+}
+
+#stage .panel-group .panel-heading + .panel-collapse .panel-body {
+    border-top: none;
+    padding-left: 0;
+}
+
+#stage a.accordion-toggle:hover, #stage a.accordion-toggle:active, #stage a.accordion-toggle:focus {
+text-decoration: none;
+color: #6D99AE;
+}
+
+#stage .listen-sidebar img{
+    position: relative;
+    top: 35px;
+    left: 2px;
+}
+
+#stage .listen-icons{
+    padding-top: 65px;
+    padding-left: 62px;
+}
+
+.itunes, .amazon {
+    background-image: url("/img/stage/stage-icon-sprite.png");
+    display: block;
+    text-indent: -99999px;
+}
+
+.itunes {
+    background-position: 0 0;
+    height: 32px;
+    width: 24px;
+}
+
+.amazon {
+    background-position: -24px 0;
+    height: 32px;
+    width: 39px;
+}
+#stage .side-block{
+    padding-left:14px;
+    text-align: center;
+
+}
+
+
+.cal-contain .col-md-8, .cal-contain .col-md-10, .cal-contain .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.panel-collapse p {
+    font-size: 12px;
+}

@@ -1,0 +1,52 @@
+/* ARTISTS STYLES */
+
+.col-md-3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 40px 40px 0;
+    cursor: pointer;
+    position: relative;
+    min-height: 295px;
+}
+
+.col-md-3 a {
+    color: #EBE2D6;
+}
+
+.col-md-3 img {
+    padding-bottom: 15px;
+}
+
+.prequel, .sequel {
+    width: 100%;
+    display: block;
+}
+
+/* Handles animation of b*w to color */
+        canvas {
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 1;
+            -webkit-transition: all 1s;
+            -moz-transition: all 1s;
+            -o-transition: all 1s;
+            -ms-transition: all 1s;
+            transition: all 1s;
+            background: url('http://placekitten.com/302/201') no-repeat scroll 0 0 / 100% auto transparent;
+            opacity: 0;
+        }
+
+        canvas:hover {
+            background: url('http://placekitten.com/302/201') no-repeat scroll 0 0 / 100% auto transparent;
+            opacity: 1;
+        }
+#artists a:hover{
+    color: #6D99AE;
+}
+#artists a:hover span.prequel{
+    color: #EBE2D6 !important;
+}
+#artists a:hover span.sequel{
+    color: #EBE2D6 !important;
+}
